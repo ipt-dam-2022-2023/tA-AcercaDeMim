@@ -7,13 +7,14 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/nomeTextView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:paddingTop="10dp"
-        android:text="José Casimiro Pereira"
+        android:text="@string/MyName"
         android:textAlignment="center"
-        android:textAllCaps="false"
         android:textSize="30sp"
-        android:textStyle="italic" />
+        android:textStyle="italic"
+        style="@style/TextBox" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
