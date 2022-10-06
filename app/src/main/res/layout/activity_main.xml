@@ -22,7 +22,37 @@
             android:textStyle="italic"
             style="@style/TextBox" />
 
+        <!-- textbox for user to write his/her nickname -->
+        <EditText
+            android:id="@+id/nicknameTextBox"
+            style="@style/TextBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="qual o seu diminutivo?"
+            android:inputType="textPersonName"
+            android:text=""
+            android:textAlignment="center"
+            android:textSize="18sp" />
 
+        <Button
+            android:id="@+id/btShowNickname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Mostra diminutivo"
+            android:textAlignment="center" />
+
+        <!-- textview to present the user nickname -->
+        <TextView
+            android:id="@+id/nicknameTextView"
+            style="@style/TextBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:visibility="gone" />
 
         <!-- slider to show your bio -->
         <ScrollView
